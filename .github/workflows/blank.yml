@@ -32,6 +32,6 @@ jobs:
         run: echo ${{ vars.test }}
 
       - name: show environment variable
-        run: echo ${{ env.test }}
+        run: echo ${{ env.TEST }}
 
 
